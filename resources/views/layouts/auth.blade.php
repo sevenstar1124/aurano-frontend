@@ -208,7 +208,7 @@
     <div v-cloak class="container-fluid" id="app">
         <div class="row">
             <div class="px-0 col-lg-5 d-none d-lg-block">
-                <div class="px-4 py-3 h-100" style="min-height: 100vh; background: #F3F2F7; background-image:url('{{asset('image/login-img.png')}}'); background-position:top; background-repeat:no-repeat;">
+                <div class="px-4 py-3 h-100" style="min-height: 100vh; background: #F3F2F7; background-image:url('{{asset('image/login-img.png')}}'); background-position:top;">
                     <div class="h-100 d-flex flex-column">
                         <div class="mx-auto my-auto">
                             <div id="carouselExampleCaptions" class="pt-5 my-5 carousel slide" data-ride="carousel" style="display: none;">
@@ -230,7 +230,7 @@
                                             <div class="mx-auto w-80">
                                                 <h5 class="mb-0 text-capitalize">Paul</h5>
                                                 <blockquote class="pt-3 mx-auto w-80">
-                                                    <p style="line-height: 21px">Aurano is literally changing my life. <br /> I closed 2 copy writing clients. Aurano literally writes the emails, my ads and everything else for me. If you wanna get more out of your copywriting and your online business, then get Aurano.</p>
+                                                    <p style="line-height: 21px">CopyBlocks is literally changing my life. <br /> I closed 2 copy writing clients. CopyBlocks literally writes the emails, my ads and everything else for me. If you wanna get more out of your copywriting and your online business, then get CopyBlocks.</p>
                                                 </blockquote>
                                             </div>
                                         </div>
@@ -248,7 +248,7 @@
                                             <div class="mx-auto w-80">
                                                 <h5 class="mb-0 text-capitalize">Ron</h5>
                                                 <blockquote class="pt-3 mx-auto w-80">
-                                                    <p>If you're like me, sometimes you squirm at the thought of having to write sales copy. Writing sales copy is like opening a vein and bleeding on the page. It's not easy, but Aurano makes it fun, fast and easy; sort of like riding on a magic carpet.</p>
+                                                    <p>If you're like me, sometimes you squirm at the thought of having to write sales copy. Writing sales copy is like opening a vein and bleeding on the page. It's not easy, but Copyblocks makes it fun, fast and easy; sort of like riding on a magic carpet.</p>
                                                 </blockquote>
                                             </div>
                                         </div>
@@ -257,7 +257,7 @@
                                             <div class="mx-auto w-80">
                                                 <h5 class="mb-0 text-capitalize">Simon</h5>
                                                 <blockquote class="pt-3 mx-auto w-80">
-                                                    <p>We have saved over $2,000 in the last 8 day by using Aurano to write all the content and marketing copy for our new project. I don't know why I didn't come across Aurano sooner! It has been a lifesaver for me because I can write better marketing copy in half the time!</p>
+                                                    <p>We have saved over $2,000 in the last 8 day by using CopyBlocks to write all the content and marketing copy for our new project. I don't know why I didn't come across Copyblocks sooner! It has been a lifesaver for me because I can write better marketing copy in half the time!</p>
                                                 </blockquote>
                                             </div>
                                         </div>
@@ -272,7 +272,7 @@
                         </div>
 
                         <p class="mt-auto mb-0 d-flex align-items-center">
-                            <img src="{{ asset('image/logo.svg') }}" width="80" alt="Aurano">
+                            <img src="{{ asset('image/logo.svg') }}" width="80" alt="copyblocks">
                             <strong class="ml-1" style="font-size: 14px;">&copy; {{ date('Y') }}</strong>
                         </p>
                     </div>

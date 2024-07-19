@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Garamond Classico';
+    src: url('GaramondClassicoBoldItalic.eot');
+    src: local('Garamond Classico BoldItalic'), local('GaramondClassicoBoldItalic'),
+        url('GaramondClassicoBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('GaramondClassicoBoldItalic.woff2') format('woff2'),
+        url('GaramondClassicoBoldItalic.woff') format('woff'),
+        url('GaramondClassicoBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Garamond Classico SC';
+    src: url('GaramondClassicoSC.eot');
+    src: local('Garamond Classico SC'), local('GaramondClassicoSC'),
+        url('GaramondClassicoSC.eot?#iefix') format('embedded-opentype'),
+        url('GaramondClassicoSC.woff2') format('woff2'),
+        url('GaramondClassicoSC.woff') format('woff'),
+        url('GaramondClassicoSC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Garamond Classico';
+    src: url('GaramondClassicoBold.eot');
+    src: local('Garamond Classico Bold'), local('GaramondClassicoBold'),
+        url('GaramondClassicoBold.eot?#iefix') format('embedded-opentype'),
+        url('GaramondClassicoBold.woff2') format('woff2'),
+        url('GaramondClassicoBold.woff') format('woff'),
+        url('GaramondClassicoBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Garamond Classico';
+    src: url('GaramondClassicoItalic.eot');
+    src: local('Garamond Classico Italic'), local('GaramondClassicoItalic'),
+        url('GaramondClassicoItalic.eot?#iefix') format('embedded-opentype'),
+        url('GaramondClassicoItalic.woff2') format('woff2'),
+        url('GaramondClassicoItalic.woff') format('woff'),
+        url('GaramondClassicoItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Garamond Classico';
+    src: url('GaramondClassico.eot');
+    src: local('Garamond Classico'), local('GaramondClassico'),
+        url('GaramondClassico.eot?#iefix') format('embedded-opentype'),
+        url('GaramondClassico.woff2') format('woff2'),
+        url('GaramondClassico.woff') format('woff'),
+        url('GaramondClassico.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
