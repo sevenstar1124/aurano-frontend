@@ -1,0 +1,272 @@
+/* #mCSB_3_container{
+    margin-right: 0px !important;
+} */
+/* .aur-agent-info-wrap{
+    padding: 0px 10px;
+} */
+/* --------------------------------------General--------------------------------------------------- */
+.aur-main-content{
+    height: unset;
+}
+.aur-agent-content-wrap{
+    height: calc(100vh - 158px);
+    overflow: auto;
+}
+.agent-info-wrap{
+    padding-right: 16px;
+}
+.agent-control-wrap{
+    padding-right: 16px;
+}
+.aur-agent-avatar-logo img{
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    clip-path: polygon(45% 1%, 50% 0%, 55% 1%, 97% 22%, 99% 25%, 100% 30%, 100% 68%, 99% 72%, 96% 75%, 55% 99%, 50% 100%, 45% 99%, 6% 80%, 2% 77%, 0% 73%, 0% 30%, 2% 25%, 6% 21%)
+}
+.aur-agent-phone-wrap{
+    position: relative;
+    border-radius: 8px;
+    background-color: #002B491A;
+}
+.aur-add-agent-phone{
+    position: absolute;
+    background-color: #D3F26A;
+    border-radius: 6px;
+    top: calc(50% - 11px);
+    left: calc(50% - 46px);
+    padding: 2px 12px;
+    cursor: pointer;
+}
+.aur-add-agent-prompt-btn{
+    background-color: var(--aur-primary-color, #002B49) !important;
+}
+.aur-agent-prompt-content{
+    border: 1px solid #B1B5C3;
+    border-radius: 8px;
+    padding: 16px;
+}
+.aur-agent-history-wrap{
+    align-items: flex-end;
+    row-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.aur-agent-history-item{
+    max-width: 180px;
+}
+/* @media(max-width: 991px){
+    .aur-agent-history-wrap{
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */
+/* .aur-agent-update-wrap{
+    padd
+} */
+.aur-agent-update-sidebar{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: flex-end; */
+    position: relative;
+    width: 100%;
+    height: 43px;
+}
+.aur-agent-update-sidebar .sidebar-item{
+    position: absolute;
+    width: 26%;
+    /* width: 100%; */
+    padding:2px 0px;
+    background-color: #E0E4E7;
+    text-align: center;
+    cursor: pointer;
+    height: fit-content;
+    margin-top: 10px;
+    clip-path: polygon(8% 5%, 9% 1%, 10% 0%, 90% 0%, 91% 1%, 92% 5%, 100% 100%, 0% 100%);
+    bottom: 0px;
+    font-size: 16px;
+}
+.aur-agent-update-sidebar .sidebar-item.installation{
+    left: 24.6%;
+}
+.aur-agent-update-sidebar .sidebar-item.integration{
+    left: 49.2%;
+}
+.aur-agent-update-sidebar .sidebar-item.configuration{
+    left: 74%;
+}
+.aur-agent-update-sidebar .sidebar-item:hover{
+    /* padding-bottom: 10px;
+    margin-top: 0px; */
+    padding: 4px 0px;
+    background-color: #D3F26A;
+    font-weight: 700;
+    font-size: 18px;
+    /* height: 50px; */
+}
+.aur-agent-update-content{
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-color: #002B49;
+    overflow: auto;
+}
+#agent_avatar:hover{
+    border-color: var(--aur-primary-color, #41D37E);
+}
+.aur-agent-list{
+    position: relative;
+}
+.aur-agent-voice-contet-wrap{
+    border-left: 2px solid #41D37E;
+    width: 100%;
+    height: 374px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    /* overflow-y: auto; */
+}
+.aur-agent-voice-contet {
+    width: 100%;
+}
+.aur-agent-voice-wrap{
+    border: 2px solid #41D37E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.aur-agent-voice-text{
+    padding: 16px 32px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 6px 6px;
+    height: 140px;
+    overflow: auto;
+}
+.mCSB_container{
+    margin-right: 0px !important;
+}
+.mCSB_6_scrollbar{
+    right: -7px !important;
+}
+.mCSB_scrollTools{
+    right: -7px !important;
+}
+/* -------------------------Installation----------------------------------- */
+.aur-agent-widget-wrap{
+    border: 2px solid var(--aur-secondary-color, "#70CF97");
+    padding: 24px;
+    border-radius: 20px;
+}
+.aur-agent-widget-subwrap{
+    width: 60%;
+}
+.aur-agent-widget-color{
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--aur-secondary-color, "#C41616");
+    border-radius: 4px;
+}
+.aur-agent-snippet-wrap{
+    position: relative;
+    border: 2px dotted #219653;
+    border-radius: 10px;
+}
+.aur-agent-snippet-add-btn{
+    position: absolute;
+}
+.aur-agent-snippet-add-btn{
+    position: absolute;
+    padding: 6px 12px;
+    background-color: #219653;
+    border-radius: 6px;
+    top: calc(50% - 18px);
+    left: calc((50% - 68px));
+    cursor: pointer;
+}
+#mCSB_3_container{
+    margin-right: 0px !important;
+}
+#aur_agent_avatar_pick_wrap{
+    top: 100px;
+    left: 100px;
+}
+.aur-popup-content{
+    padding: 14px 12px;
+}
+.aur-popup-footer{
+    padding: 10px 12px;
+    background-color: #D3F26A;
+    border-radius: 0px 0px 10px 10px;
+}
+.aur-popup-content .aur-agent-avatars-wrap{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 4px;
+
+}
+.aur-popup-content .aur-agent-avatars-wrap .aur-agent-avatar-item img{
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    border-radius: 4px;
+}
+.aur-agent-phone-item{
+    padding: 8px 6px;
+    background-color: #D3F26A80;
+    border-radius: 10px;
+}
+@media(max-width : 1620px){
+    .aur-agent-list{
+        justify-content: center;
+    }
+    .aur-agent-list>div{
+        position: absolute;
+        /* left: 51px; */
+        background-color: black;
+        padding: 5px;
+        padding: 9px !important;
+        width: 107px;
+        border-radius: 6px;
+        display: none;
+        z-index: 3;
+        top: 48px;
+    }
+    .aur-agent-list:hover .aur-agent-list-name{
+        display: block;
+        width: 80px;
+    }
+    .aur-agent-voice-text{
+        font-size: 14px;
+    }
+}
+@media(max-width : 1230px){
+    .aur-agent-voice-contet img{
+        width: 100%;
+    }
+    .aur-agent-profile .aur-agent-profile-item{
+        padding: 20px !important;
+    }
+    .sidebar-item {
+        font-size: 12px !important;
+    }
+    .aur-agent-update-sidebar .sidebar-item:hover{
+        font-size: 16px !important;
+    }
+
+    /* .aur-agent-list-wrap{
+        max-height: 200px !important;
+    }
+    .aur-agent-voice-contet-wrap{
+        height: 295px;
+    } */
+}
+@media(max-width: 991px){
+    .aur-agent-content-wrap{
+        height: unset;
+    }
+    .aur-agent-update-content{
+        height: unset;
+    }
+}
+
+
