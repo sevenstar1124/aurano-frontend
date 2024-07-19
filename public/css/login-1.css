@@ -1,0 +1,282 @@
+div{
+	box-sizing: border-box;
+}
+.rc-login-wrap{
+	display: grid;
+	grid-template-columns: 35% auto;
+	height: 100VH;
+	overflow: hidden;
+
+}
+
+.rc-app-list-wrap{
+	max-width: 600px;
+	color: white;
+}
+.rc-app-list-title{
+	padding: 30px 0px;
+	font-size: 28px;
+}
+.rc-app-list-content{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 20px;
+	grid-column-gap: 60px;
+
+}
+.rc-app-list{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.rc-app-name{
+	font-size: 18px;
+}
+
+.rc-app-list-icon{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #623ceb;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rc-app-list-icon img{
+	height: 12px;
+	width: auto !important;
+}
+.rc-login-left {
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 20.8%, rgba(0, 0, 0, 0.76) 100%), url('../image/login-img-1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+}
+.rc-login-left img{
+	width: 100%;
+}
+.rc-login-right{
+	min-height: 100VH;
+	position: relative;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	overflow: auto;
+}
+.rc-loing-title{
+	font-size: 14px;
+	color: #757575;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.rc-loing-desc{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: #333333;
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Nunito';
+}
+.rc-loing-subtitle{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: #333333;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 500;
+	text-align: center;
+	font-family: 'Nunito';
+}
+.rc-login-logo{
+	position: absolute;
+	left: 40px;
+	top: 30px;
+}
+.rc-login-logo img{
+	height: 30px;
+}
+
+.rc-login-title{
+	padding-top: 30px;
+	font-size: 24px;
+}
+.rc-login-input{
+	margin-top: 20px;
+}
+.rc-login-input label{
+	color:#10182F;
+}
+.rc-login-input input, .rc-login-button .btn{
+	height: 50px ;
+	max-width: 500px ;
+	font-size: 14px;
+}
+.form-control:focus{
+	box-shadow: none !important;
+}
+.rc-login-button{
+}
+.rc-login-main{
+	padding-top: 10px;
+}
+.rc-login-forgot-pass{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.rc-login-remember-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.btn-success {
+	background: #623ceb !important;
+	border: 1px solid #623ceb;
+}
+.btn-success:hover {
+	background: #4325b1 !important;
+}
+.btn-default{
+    border: 1px solid #d4d4d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rc-login-error{
+	color: red;
+	height: 20px;
+}
+.rc-login-add-action{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 20px;
+}
+@media (max-width: 768px) {
+	.rc-login-wrap{
+		display:block;
+	}	
+	.rc-login-left{ 
+		display: none;
+	}
+}
+.rc-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rc-flex-top{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+.rc-login-policy-wrap{
+	display: grid;
+	grid-template-columns: 20px auto;
+	grid-gap: 5px;
+}
+.rc-login-policy{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+
+	color: #757575;
+}
+.rc-login-step-wrap{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+    grid-gap: 15px;
+    max-width: 341px;
+    margin: 0px auto;
+}
+.rc-login-step-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 5px;
+}
+.rc-loing-step-num{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #E9EDF3;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	font-size: 11px;
+}
+.rc-loing-step-bar{
+	width: calc(100% - 30px);
+	height: 4px;
+	position: relative;
+	background-color: #E9EDF3;
+	border-radius: 5px;
+}
+.rc-login-step-item.active .rc-loing-step-num{
+	background-color: #623ceb;
+	color: white;
+}
+.rc-login-step-item.active .rc-loing-step-bar-content{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 50%;
+	border-radius: 5px;
+	background-color: #623ceb;
+}
+.rc-login-slider-text{
+	font-size: 14px;
+	line-height: 18px;
+	color: white;
+	opacity: 0.95;
+    font-style: italic;
+}
+.rc-login-slider-name{
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	margin-top: 10px;
+}
+.rc-slider-wrap{
+	position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 100px;
+}
+
+.rc-slider-wrap .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rc-slider-wrap .slick-dots li{
+	width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.rc-slider-wrap .slick-dots li button{
+	display: none;
+}
+.rc-slider-wrap .slick-dots li.slick-active{
+	background-color: white;
+}
