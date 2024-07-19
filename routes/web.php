@@ -30,4 +30,14 @@ Route::get('/logout','App\Http\Controllers\LoginController@logout');
 
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index']);
 
+Route::get('/agent/{id}', [App\Http\Controllers\AgentController::class, 'getAgent']);
+Route::get('/campaigns/{id}', [App\Http\Controllers\CampaignController::class, 'index']);
+Route::get('/campaign/{user_id}/{campaign_id}', [App\Http\Controllers\CampaignController::class, 'campaign']);
+
+Route::get('/contactLeads/{user_id}', [App\Http\Controllers\ContactController::class, 'index']);
+
+Route::get('/appoinment/{user_id}', [App\Http\Controllers\UpcomingAppoinmentController::class, 'index']);
+
+Route::get('/callHistory/{user_id}', [App\Http\Controllers\CallHistoryController::class, 'index']);
+
 // Route::get('/dashboard', 'DashboardController@index');
