@@ -1,0 +1,179 @@
+.aur-conatact-leads-nabvar{
+    padding: 4px 18px;
+    width: 100%;
+    background-color: #4B4E58;
+    border-radius: 10px 10px 0px 0px;
+}
+.aur-contact-search-wrap{
+    padding: 6px 14px;
+    background-color: #002B49;
+    opacity: 20%;
+    border-radius: 8px;
+}
+.aur-contact-search{
+    border: none;
+    border-left: 2px solid #EF9011; 
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+.aur-conatact-leads-table-wrap{
+    background-color: #242731;
+    padding: 16px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+table { 
+    width: 100%; 
+    /* border-collapse: collapse;  */
+  }
+  /* Zebra striping */
+  /* tr:nth-of-type(odd) { 
+    background: #eee; 
+  } */
+th { 
+    background: transparent; 
+    color: #7C7C8D; 
+    font-size: 14px;
+    font-weight: 500;
+    border-top: 1px solid #2C303D;
+    border-bottom: 1px solid #2C303D;
+    padding: 12px 0px;
+    /* font-weight: bold;  */
+}
+tbody tr{
+    cursor: pointer;
+    padding: 0px 10px;
+    border-radius: 6px;
+}
+tbody tr:hover{
+    background-color: #42604fb0;
+}
+td, th { 
+    /* border-bottom: 1px solid #ccc;  */
+    text-align: left; 
+}
+td{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: tittle/13 M;
+    color: #E0E4E7;
+    padding: 12px 0px;
+    border-bottom: 1px solid #2C303D;
+}
+  @media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr{ 
+        border: 1px solid #2C303D; 
+    }
+    tbody tr{
+        cursor: pointer;
+    }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #2C303D; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 12px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: ""; }
+	td:nth-of-type(2):before { content: "Full Name"; }
+	td:nth-of-type(3):before { content: "Phone Number"; }
+	td:nth-of-type(4):before { content: "Country"; }
+	td:nth-of-type(5):before { content: "Date Added"; }
+	td:nth-of-type(6):before { content: "Tags"; }
+}
+.aur-custom-checkbox-wrap{
+    position: absolute;
+    /* opacity: 0; */
+    cursor: pointer;
+    height: 0;
+}
+.aur-custom-checkbox{
+    opacity: 0;
+}
+.checkmark{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    /* background-color: white; */
+    border-radius: 3px;
+    border: 1px solid #d1d1d1;
+}
+/* input ~ .checkmark {
+	border-color: var(--aur-primary-color, #41D37E);
+} */
+
+/* When the checkbox is checked, add a blue background */
+input:checked ~ .checkmark {
+  background-color: var(--aur-primary-color, #41D37E);
+  border-color: var(--aur-primary-color, #41D37E);
+}
+/* On mouse-over, add a grey background color */
+.aur-custom-checkbox-wrap:hover input ~ .checkmark {
+	border-color: var(--aur-primary-color, #41D37E);
+}
+
+/* When the checkbox is checked, add a blue background */
+.aur-custom-checkbox-wrap input:checked ~ .checkmark {
+  background-color: var(--aur-primary-color, #41D37E);
+  border-color: var(--aur-primary-color, #41D37E);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.aur-custom-checkbox-wrap input:checked ~ .checkmark:after {
+  display: block;
+  border-color: white;
+}
+
+/* Style the checkmark/indicator */
+.aur-custom-checkbox-wrap .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 10px;
+  border: solid #1D2939;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-color: inherit;
+}

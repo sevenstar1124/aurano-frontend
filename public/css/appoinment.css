@@ -1,0 +1,55 @@
+.aur-appoint-navbar{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+}
+.aur-main-content-wrap{
+    height: unset;
+    overflow: unset;
+}
+.aur-appoint-date-prev, .aur-appoint-date-next{
+    width: 30px; 
+    height:30px;
+    background-color:#F4F4F5;
+}
+.aur-appoint-agent-select-wrap{
+    background-color: #F4F4F5;
+}
+.aur-appoint-search-warp{
+    background-color: #F4F4F5;
+    padding: 4px 12px;
+}
+.aur-appoint-search-warp input{
+    background-color: transparent;
+}
+.aur-appoint-main{
+    height: calc(100vh - 168px);
+    overflow: auto;
+}
+.aur-appoint-main-wrap{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 30px;
+}
+.aur-appoint-item{
+    background-color: white;
+    border-radius: 4px;
+    border-left: 4px solid var(--aur-primary-color, #41D37E);
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px #0000000F;
+}
+.aur-appoint-agent-avatar img{
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    clip-path: polygon(45% 1%, 50% 0%, 55% 1%, 97% 22%, 99% 25%, 100% 30%, 100% 68%, 99% 72%, 96% 75%, 55% 99%, 50% 100%, 45% 99%, 6% 80%, 2% 77%, 0% 73%, 0% 30%, 2% 25%, 6% 21%)
+}
+@media(max-width:1400px){
+    .aur-appoint-navbar-right{
+        justify-content: flex-start;
+    }
+    .aur-appoint-navbar{
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+}

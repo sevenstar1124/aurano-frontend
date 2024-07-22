@@ -1,0 +1,103 @@
+.aur-main{
+    position: relative;
+    display: grid;
+    grid-template-columns: 250px auto;
+    background-color: var(--aur-backgrond-color, "#F6EEE8");
+    height: 100vh;
+}
+*{
+    /* font-family: DM Sans; */
+}
+.aur-mobile-sidebar{
+    position: fixed;
+    width: 250px;
+    top: 0px;
+    left: -250px;
+    transition: all 0.5s;
+    background-color: white;
+    padding: 30px 24px;
+    padding-top: 20px;
+    height: 100vh;
+    z-index: 1;
+}
+.aur-main-sidebar{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding: 30px 24px;
+    position: relative;
+}
+.aur-mobile-sidebar-close{
+    /* display: none; */
+    cursor: pointer;
+}
+.aur-mobile-sidebar-show{
+    display: none;
+    cursor: pointer;
+}
+.aur-sidebar-item-wrap{
+    height: calc(100vh - 260px);
+    margin-bottom: 30px;
+    overflow: auto;
+}
+.aur-sidebar-logo{
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--aur-gray-dark, #1F2128);
+}
+.aur-sidebar-item{
+    margin-bottom: 10px;
+    padding: 8px;
+    color: var(--aru-main-color, #5F6165);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.aur-sidebar-item:hover{
+    background-color: #F3F5F8;
+}
+.aur-sidebar-item.active{
+    background-color: #F3F5F8;
+}
+.aur-main-content-wrap{
+    padding: 16px;
+    height: 100vh;
+    /* overflow: auto; */
+    position: relative;
+}
+.aur-main-content{
+    height: calc(100vh - 64px);
+    overflow: auto;
+}
+.aur-header-accound{
+    border-radius: 50%;
+    overflow: hidden;
+}
+@media(max-width: 992px){
+    .aur-main{
+        grid-template-columns: auto;
+    }
+    .aur-main-sidebar{
+        display: none;        
+    }
+    .aur-main-header{
+        justify-content: space-between;
+    }
+    .aur-mobile-sidebar-show{
+        display: block;
+    }
+    /* .aur-main-sidebar-close{
+        display: flex;
+    }
+    .aur-main-sidebar-show{
+        display: block;
+    } */
+    .aur-main-content-wrap{
+        left: 0px;
+    }
+    .aur-agent-update-content{
+        height: unset;
+    }
+}
+

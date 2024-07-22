@@ -1,0 +1,227 @@
+:root{
+    --aur-font-size : 14px;
+    --aur-backgrond-color : #F6EEE8;
+    --aur-gray-dark : #1F2128;
+    --aur-main-color : #5F6165;
+    --aur-heading-color : #002b49;
+    --aur-text-color : #7B7B7B; 
+    --aur-primay-color : #41D37E;
+    --aur-secondary-color : #70CF97;
+}
+.aur-flex{
+    display: flex;
+    align-items: center;
+}
+.aur-flex-column-start{
+    display: flex;
+    align-self: center;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+.aur-flex-column-center{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+.aur-flex-column-end{
+    display: flex;
+    align-self: center;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+.aur-flex-start{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.aur-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aur-flex-end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.aur-flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aur-flex-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aur-gap-4{
+    grid-gap: 4px;
+}
+.aur-gap-8{
+    grid-gap: 8px;
+}
+.aur-gap-10{
+    grid-gap: 10px;
+}
+.aur-gap-12{
+    grid-gap: 12px;
+}
+.aur-gap-14{
+    grid-gap: 14px;
+}
+.aur-gap-20{
+    grid-gap: 20px;
+}
+.aur-gap-16{
+    grid-gap: 16px;
+}
+.aur-gap-24{
+    grid-gap: 24px;
+}
+.aur-gap-40{
+    grid-gap: 24px;
+}
+.aur-font-8{
+    font-size: 8px;
+}
+.aur-font-12{
+    font-size: 12px;
+}
+.aur-font-14{
+    font-size: 14px;
+}
+.aur-font-16{
+    font-size: 16px;
+}
+.aur-font-18{
+    font-size: 18px;
+}
+.aur-font-20{
+    font-size: 20px;
+}
+.aur-font-30{
+    font-size: 30px;
+}
+.aur-font-40{
+    font-size: 40px;
+}
+.aur-font-600{
+    font-weight: 600;
+}
+.aur-font-700{
+    font-weight: 700;
+}
+.aur-font-400{
+    font-weight: 400;
+}
+.aur-font-500{
+    font-weight: 500;
+}
+.row{
+    margin: 0px;
+    padding: 0px;;
+}
+.non-p{
+    padding: 0px !important;
+}
+.non-bd{
+    border: none !important;
+}
+.non-ol{
+    outline: none !important;
+}
+.aur-primary-color{
+    color: #002b49;
+}
+.aur-text-color{
+    color: #7B7B7B;
+}
+/* #mCSB_3_scrollbar_vertical{
+    margin-right: -6px;
+} */
+.aur-radius-8{
+    border-radius: 8px;
+}
+.aur-radius-10{
+    border-radius: 10px;
+}
+.aur-radius-12{
+    border-radius: 12px;
+}
+.aur-border{
+    border: 1px solid #F0F0F0;
+}
+.aur-bdcolor-primary{
+    border-color: var(--aur-primary-color, #41D37E);
+}
+.aur-cu-po{
+    cursor: pointer;
+}
+.mCSB_dragger_bar{
+    background-color: var(--aur-primary-color, #41D37E) !important;
+}
+.aur-btn-success{
+    background-color: var(--aur-primay-color, #41D37E) !important;
+    border-radius: 6px !important;
+    font-weight: 500;
+}
+.aur-btn-success:hover{
+    background-color: #198754 !important;
+}
+.aur-btn-dark{
+    background-color: var(--aur-heading-color, "#002B49") !important;
+    border-radius: 6px !important;
+    font-weight: 500;
+}
+.aur-btn-dark:hover{
+    background-color: black !important;
+}
+.aur-text-primary{
+    color: var(--aur-primary-color, #41D37E);
+    /* font-family: DM Sans; */
+}
+.aur-text-heading{
+    color: var(--aur-heading-color, #002B49);
+}
+.aur-tag-orrange{
+    background-color: transparent;
+    color: #FBBC05;
+    border: 1px solid #FBBC05;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.aur-tag-purple{
+    background-color: transparent;
+    color: #7B61FF;
+    border: 1px solid #7B61FF;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.aur-tag-white{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.aur-tag-dark{
+    background-color: transparent;
+    color: #002B49;
+    border: 1px solid #002B49;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.aur-popup{
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+}

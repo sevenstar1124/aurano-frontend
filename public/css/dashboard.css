@@ -1,0 +1,119 @@
+.aur-main-agent-polygon1{
+    background-image: url('../image/Polygon\ 3.png');
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-position-x: 14px;
+    background-size: 90%;
+}
+.aur-main-agent-polygon2{
+    background-image: url('../image/Polygon\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 93%;
+    padding: 50px;
+    background-position-x: 7px;
+}
+.aur-main-calling-history-wrap{
+    padding: 30px 38px;
+    background-color: #002B49;
+    border-radius: 10px;
+    grid-gap: 100px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(226px, 1fr));
+    padding: 40px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.aur-calling-history-item{
+    width: 160px;
+    margin: 0 auto;
+    /* align-items: ; */
+}
+.aur-main-best-agent{
+    background-color: #D3F26A;
+    border-radius: 10px;
+    padding: 30px 20px;
+    /* align-items: flex-start; */
+}
+.aur-main-agents-wrap{
+    padding-bottom: 70px;
+    overflow-x: auto;
+    width: 100%;
+}
+.aur-main-agents{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    width: 100%;
+}
+.aur-best-agent-logo{
+    /* border-radius: 50%; */
+    overflow: hidden;
+    padding: 10px;
+}
+.aur-agent-avatar-wrap{
+    padding: 0px 34px;
+    margin-bottom: 20px;
+}
+.aur-main-agent-item{
+    border: 2px solid #002B49;
+    border-radius: 10px;
+    padding: 30px 10px 10px 10px;
+}
+.aur-agent-avatar-line{
+    width: 60px;
+    height: 4px;
+    background-color: #D3F26A;
+}
+@media(max-width: 2124px){
+    .aur-main-agent-polygon1{
+        padding: 30px;
+        background-position-x: 17px;
+        background-position-y: 8px;
+        background-size: 83%;
+    }
+    .aur-main-agent-polygon2{
+        background-size: 84%;
+        padding: 30px;
+        background-position-x: 11px;
+        background-position-y: 8px;
+    }
+    
+    .aur-main-agent-avatar img{
+        width: 70px;
+        height: 80px;
+        background-size: 100%;
+        clip-path: polygon(45% 1%, 50% 0%, 55% 1%, 97% 22%, 99% 25%, 100% 30%, 100% 68%, 99% 72%, 96% 75%, 55% 99%, 50% 100%, 45% 99%, 6% 80%, 2% 77%, 0% 73%, 0% 30%, 2% 25%, 6% 21%)
+    }
+    .aur-service-agent-name h1{
+        font-size: 30px !important;
+    }
+    .aur-main-agent-wrap{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .aur-main-agent-wrap div{
+        color: #002B49;
+    }
+    /* .aur-main-calling-history-wrap{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 40px;
+        margin-bottom: 10px;
+        justify-content: space-between;
+    } */
+    .aur-main-best-agent{
+        padding: 20px;
+    }
+}
+@media(max-width: 1300px){
+    .aur-main-calling-history-wrap{
+        /* grid-template-columns: repeat(2, 1fr); */
+        grid-gap: 10px;
+    } 
+}
+@media(max-width: 520px){
+    .aur-main-agent-wrap{
+        display: grid;
+        justify-content: center;
+    }
+}
